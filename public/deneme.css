@@ -1,0 +1,42 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Segoe UI", Helvetica, sans-serif;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .topbar {
+    color: #fff;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 .5rem;
+    background: rgba(20,20,20,.25);
+    text-align: right;
+  }
+  
+  a {
+    color: #ddd;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .canvas {
+    cursor: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom,#262530,#312);
+  }
